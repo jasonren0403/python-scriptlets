@@ -140,7 +140,7 @@ class DataSupport:
             sql = "insert into 2020_pneumonia values('%s',%d,%d,%d,%d);" % (date_in, proved, uncertain, died, cured)
             cur.execute(sql)
             self.conn.commit()
-            self.logger.info("[鈭歖 Insert success!")
+            self.logger.info("[*] Insert success!")
         except Exception as e:
             self.logger.warning(e)
 
