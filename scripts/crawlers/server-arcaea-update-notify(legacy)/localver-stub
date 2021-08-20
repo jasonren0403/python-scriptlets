@@ -1,0 +1,22 @@
+# 请将此文件更名为.localver使用
+[arc-info]
+version =   # arcaea_x.y.zc.apk
+version_cached =
+token =     # 随机字母和数字
+
+[notification]
+login_email =
+login_pw =
+# 以下两个配置均需为 发送者名称<发送者地址> 格式
+sender = # 发送者标志
+receivers =  # 接收者标志
+
+# https://console.cloud.tencent.com/cos5 腾讯云对象存储服务配置，密钥信息请查看https://console.cloud.tencent.com/cam/capi
+[cos-upload]
+appid =
+secretid =
+secretkey =
+region = # 地区
+scheme = # 指定使用 http/https 协议来访问 COS，默认为 https，可不填
+token = # 使用临时密钥需要传入 Token，默认为空，可不填
+bucket = # 存储桶名称
